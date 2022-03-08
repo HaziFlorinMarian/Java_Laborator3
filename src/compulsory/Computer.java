@@ -10,6 +10,17 @@ public class Computer extends Node implements Storage, Identifiable {
         this.capacity = capacity;
     }
 
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "name='" + getName() + '\'' +
+                ", macAddr='" + getMacAddr() + '\'' +
+                ", location='" + getLocation() + '\'' +
+                "ipAddr='" + ipAddr + '\'' +
+                ", capacity=" + capacity +
+                '}';
+    }
+
     public void setIpAddress(String ip) {
         ipAddr = ip;
     }
