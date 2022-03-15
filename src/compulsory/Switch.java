@@ -7,6 +7,7 @@ public class Switch extends Node {
                 "name='" + getName() + '\'' +
                 ", macAddr='" + getMacAddr() + '\'' +
                 ", location='" + getLocation() + '\'' +
+                ", costs='" + printCosts() + '\'' +
                 '}';
     }
 

@@ -23,6 +23,7 @@ public class Router extends Node implements Identifiable {
                 ", macAddr='" + getMacAddr() + '\'' +
                 ", location='" + getLocation() + '\'' +
                 "ipAddr='" + ipAddr + '\'' +
+                ", costs='" + printCosts() + '\'' +
                 '}';
     }
 }
