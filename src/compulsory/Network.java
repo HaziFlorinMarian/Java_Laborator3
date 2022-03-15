@@ -21,6 +21,12 @@ public class Network {
         }
     }
 
+    /**
+     * Because we're inserting anonymous Nodes, we're identifying them using their names.
+     * @param firstNodeName
+     * @param secondNodeName
+     * @param value Distance between nodes.
+     */
     public void addCostBetweenNodes(String firstNodeName, String secondNodeName, int value) {
         for (Node curNode : nodes) {
             if (curNode.getName().equals(firstNodeName)) {

@@ -26,6 +26,9 @@ public class Algorithm {
         dist.put(source, 0);
     }
 
+    /**
+     * Dijkstra's algorithm applied for source node only because we have some errors even with this calculation.
+     */
     public void getShortestPath() {
         while (!q.isEmpty()) {
             Node u = q.poll();
